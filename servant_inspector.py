@@ -52,15 +52,12 @@ def lookup_servant(serv_url: str):
 
     no_upgrade = re.compile('\(Upgrade \d\)')
     np_tags = soup.find(class_="np-base-container").findAll(class_="servant-skill-right")[-1]
-    print(np_tags)
     # Everything about the NPs is awful. This is to get the title and then the desc is from <p> tags
-    title_tag = np_tags.find_all('a')[0]
-    # TODO FIX HAVING DOUBLE SPACES WHEN AN UPGRADE NOTE IS TAKEN AWAY
-    noblephantasm = no_upgrade.sub('', ' '.join(title_tag.stripped_strings))
-    print("shit \n\n")
-    np_text_tags = np_tags.find_all('p')
-    for text in np_text_tags:
-        print(text)
+    noblephantasm = no_upgrade.sub('', '\n'.join(np_tags.stripped_strings))
+
+    # np_text_tags = np_tags.find_all('p')
+    # for text in np_text_tags:
+    #     print(text)
 
     if "Altria" in servantName:
         servantName = servantName.replace("Altria", "Artoria")
