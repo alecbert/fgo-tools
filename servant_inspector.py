@@ -67,5 +67,23 @@ def lookup_servant(serv_url: str):
     print(skilllist)
     print(noblephantasm)
 
+
+def lookup_asc_mats(serv_url: str):
+    r = requests.get('https://gamepress.gg/grandorder/servant/' + serv_url)
+    soup = BeautifulSoup(r.text, 'html.parser')
+    mats_rows = soup.find_all(class_="ascension-row")
+
+    for stage, row in enumerate(mats_rows, start=1):
+        print(f"Ascension {stage}:")
+        # Gamepress doesn't include a qp image so we have to do this extra step. The ascension-cost class helps though
+        print(row.find(class_="ascension-cost").div.string, ":qp:")
+        # Each material gets its own div with this class, we can drill down from there for the quantity and expected
+        # emoji name
+        for mat in row.find_all(class_="paragraph--type--required-materials"):
+            quantity = mat['data-qty']
+            emoji = mat.find('article')['about'].split('/')[-1]
+            print(f"{quantity} :{emoji}:")
+
+
 if __name__ == "__main__":
-    lookup_servant('voyager')
+    lookup_asc_mats('voyager')
