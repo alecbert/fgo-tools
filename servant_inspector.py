@@ -1,10 +1,12 @@
 import requests
+import json
 import pprint
 import re
 from bs4 import BeautifulSoup
 
 STAR_SYMBOL_HTML = '&#11088;'
 STAR_SYMBOL = '\u2606'
+RIGHT_ARROW_SYMBOL = '\u2192'
 
 
 def create_servant_list():
@@ -69,6 +71,10 @@ def lookup_servant(serv_url: str):
 
 
 def lookup_asc_mats(serv_url: str):
+    """"
+    Gamepress baked color backgrounds in to the item images they host.
+    Non transparency makes us sad so this is the backup if other stuff doesn't work.
+    """
     r = requests.get('https://gamepress.gg/grandorder/servant/' + serv_url)
     soup = BeautifulSoup(r.text, 'html.parser')
     mats_rows = soup.find_all(class_="ascension-row")
@@ -85,5 +91,51 @@ def lookup_asc_mats(serv_url: str):
             print(f"{quantity} :{emoji}:")
 
 
+def atlas_lookup_asc_mats(atlas_serv_id: str):
+    """"
+    This looks up ascension mats from the Atlas API. Important to note that they
+    have their own internal ids you're required to search by. The usual collection
+    id is not supported by their endpoints, although they DO return it in the payload.
+    """
+    r = requests.get(f'https://api.atlasacademy.io/nice/JP/svt/{atlas_serv_id}?lang=en')
+    data = r.json()
+    all_mats = data['ascensionMaterials']
+    # sample_data/atlas_asc_struct has an example of what we get back
+    for stage, mats in all_mats.items():
+        # Atlas API lists a stage 5 which is grailing. Idk if that's desired but I'm cutting it out for now
+        if stage != "5":
+            print('Ascension ' + stage)
+
+            print_item_and_cost(mats)
+
+
+def atlas_lookup_skill_mats(atlas_serv_id: str):
+    """"
+    This looks up skill mats from the Atlas API. Important to note that they
+    have their own internal ids you're required to search by. The usual collection
+    id is not supported by their endpoints, although they DO return it in the payload.
+    """
+    r = requests.get(f'https://api.atlasacademy.io/nice/JP/svt/{atlas_serv_id}?lang=en')
+    data = r.json()
+    all_mats = data['skillMaterials']
+    for level, mats in all_mats.items():
+        print(f'Level {level} {RIGHT_ARROW_SYMBOL} {int(level)+1}')
+
+        print_item_and_cost(mats)
+
+def print_item_and_cost(mats: json):
+    """"
+    Sure hope Atlas API doesn't change the structure of mats arrays.
+    Would be an awful shame.
+    Also I tried to give a type hint and had json like that was a real thing so I'm preserving that
+    """
+    cost = mats['qp']
+    print(f'{cost} :qp:')
+
+    for mat in mats['items']:
+        mat_id = mat['item']['id']
+        quantity = mat['amount']
+        print(f"{quantity} :{mat_id}:")
+
 if __name__ == "__main__":
-    lookup_asc_mats('voyager')
+    atlas_lookup_skill_mats('304000')

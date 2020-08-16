@@ -1,0 +1,127 @@
+{
+      "1": {
+        "items": [
+          {
+            "item": {
+              "id": 7003,
+              "name": "ランサーピース",
+              "type": "tdLvUp",
+              "icon": "https://assets.atlasacademy.io/GameData/JP/Items/7003.png",
+              "background": "silver"
+            },
+            "amount": 4
+          }
+        ],
+        "qp": 50000
+      },
+      "2": {
+        "items": [
+          {
+            "item": {
+              "id": 7003,
+              "name": "ランサーピース",
+              "type": "tdLvUp",
+              "icon": "https://assets.atlasacademy.io/GameData/JP/Items/7003.png",
+              "background": "silver"
+            },
+            "amount": 10
+          },
+          {
+            "item": {
+              "id": 6526,
+              "name": "追憶の貝殻",
+              "type": "skillLvUp",
+              "icon": "https://assets.atlasacademy.io/GameData/JP/Items/6526.png",
+              "background": "silver"
+            },
+            "amount": 6
+          }
+        ],
+        "qp": 150000
+      },
+      "3": {
+        "items": [
+          {
+            "item": {
+              "id": 7103,
+              "name": "ランサーモニュメント",
+              "type": "tdLvUp",
+              "icon": "https://assets.atlasacademy.io/GameData/JP/Items/7103.png",
+              "background": "gold"
+            },
+            "amount": 4
+          },
+          {
+            "item": {
+              "id": 6519,
+              "name": "戦馬の幼角",
+              "type": "skillLvUp",
+              "icon": "https://assets.atlasacademy.io/GameData/JP/Items/6519.png",
+              "background": "gold"
+            },
+            "amount": 5
+          },
+          {
+            "item": {
+              "id": 6501,
+              "name": "鳳凰の羽根",
+              "type": "skillLvUp",
+              "icon": "https://assets.atlasacademy.io/GameData/JP/Items/6501.png",
+              "background": "silver"
+            },
+            "amount": 4
+          }
+        ],
+        "qp": 500000
+      },
+      "4": {
+        "items": [
+          {
+            "item": {
+              "id": 7103,
+              "name": "ランサーモニュメント",
+              "type": "tdLvUp",
+              "icon": "https://assets.atlasacademy.io/GameData/JP/Items/7103.png",
+              "background": "gold"
+            },
+            "amount": 10
+          },
+          {
+            "item": {
+              "id": 6501,
+              "name": "鳳凰の羽根",
+              "type": "skillLvUp",
+              "icon": "https://assets.atlasacademy.io/GameData/JP/Items/6501.png",
+              "background": "silver"
+            },
+            "amount": 7
+          },
+          {
+            "item": {
+              "id": 6536,
+              "name": "オーロラ鋼",
+              "type": "skillLvUp",
+              "icon": "https://assets.atlasacademy.io/GameData/JP/Items/6536.png",
+              "background": "silver"
+            },
+            "amount": 10
+          }
+        ],
+        "qp": 1500000
+      },
+      "5": {
+        "items": [
+          {
+            "item": {
+              "id": 7999,
+              "name": "聖杯",
+              "type": "tdLvUp",
+              "icon": "https://assets.atlasacademy.io/GameData/JP/Items/7999.png",
+              "background": "gold"
+            },
+            "amount": 1
+          }
+        ],
+        "qp": 50000000
+      }
+    }

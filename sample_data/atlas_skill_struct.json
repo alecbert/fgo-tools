@@ -1,0 +1,187 @@
+{
+      "1": {
+        "items": [
+          {
+            "item": {
+              "id": 6003,
+              "name": "槍の輝石",
+              "type": "skillLvUp",
+              "icon": "https://assets.atlasacademy.io/GameData/JP/Items/6003.png",
+              "background": "bronze"
+            },
+            "amount": 4
+          }
+        ],
+        "qp": 100000
+      },
+      "2": {
+        "items": [
+          {
+            "item": {
+              "id": 6003,
+              "name": "槍の輝石",
+              "type": "skillLvUp",
+              "icon": "https://assets.atlasacademy.io/GameData/JP/Items/6003.png",
+              "background": "bronze"
+            },
+            "amount": 10
+          }
+        ],
+        "qp": 200000
+      },
+      "3": {
+        "items": [
+          {
+            "item": {
+              "id": 6103,
+              "name": "槍の魔石",
+              "type": "skillLvUp",
+              "icon": "https://assets.atlasacademy.io/GameData/JP/Items/6103.png",
+              "background": "silver"
+            },
+            "amount": 4
+          }
+        ],
+        "qp": 600000
+      },
+      "4": {
+        "items": [
+          {
+            "item": {
+              "id": 6103,
+              "name": "槍の魔石",
+              "type": "skillLvUp",
+              "icon": "https://assets.atlasacademy.io/GameData/JP/Items/6103.png",
+              "background": "silver"
+            },
+            "amount": 10
+          },
+          {
+            "item": {
+              "id": 6519,
+              "name": "戦馬の幼角",
+              "type": "skillLvUp",
+              "icon": "https://assets.atlasacademy.io/GameData/JP/Items/6519.png",
+              "background": "gold"
+            },
+            "amount": 3
+          }
+        ],
+        "qp": 800000
+      },
+      "5": {
+        "items": [
+          {
+            "item": {
+              "id": 6203,
+              "name": "槍の秘石",
+              "type": "skillLvUp",
+              "icon": "https://assets.atlasacademy.io/GameData/JP/Items/6203.png",
+              "background": "gold"
+            },
+            "amount": 4
+          },
+          {
+            "item": {
+              "id": 6519,
+              "name": "戦馬の幼角",
+              "type": "skillLvUp",
+              "icon": "https://assets.atlasacademy.io/GameData/JP/Items/6519.png",
+              "background": "gold"
+            },
+            "amount": 5
+          }
+        ],
+        "qp": 2000000
+      },
+      "6": {
+        "items": [
+          {
+            "item": {
+              "id": 6203,
+              "name": "槍の秘石",
+              "type": "skillLvUp",
+              "icon": "https://assets.atlasacademy.io/GameData/JP/Items/6203.png",
+              "background": "gold"
+            },
+            "amount": 10
+          },
+          {
+            "item": {
+              "id": 6526,
+              "name": "追憶の貝殻",
+              "type": "skillLvUp",
+              "icon": "https://assets.atlasacademy.io/GameData/JP/Items/6526.png",
+              "background": "silver"
+            },
+            "amount": 4
+          }
+        ],
+        "qp": 2500000
+      },
+      "7": {
+        "items": [
+          {
+            "item": {
+              "id": 6526,
+              "name": "追憶の貝殻",
+              "type": "skillLvUp",
+              "icon": "https://assets.atlasacademy.io/GameData/JP/Items/6526.png",
+              "background": "silver"
+            },
+            "amount": 8
+          },
+          {
+            "item": {
+              "id": 6535,
+              "name": "永遠結氷",
+              "type": "skillLvUp",
+              "icon": "https://assets.atlasacademy.io/GameData/JP/Items/6535.png",
+              "background": "silver"
+            },
+            "amount": 5
+          }
+        ],
+        "qp": 5000000
+      },
+      "8": {
+        "items": [
+          {
+            "item": {
+              "id": 6535,
+              "name": "永遠結氷",
+              "type": "skillLvUp",
+              "icon": "https://assets.atlasacademy.io/GameData/JP/Items/6535.png",
+              "background": "silver"
+            },
+            "amount": 15
+          },
+          {
+            "item": {
+              "id": 6542,
+              "name": "真理の卵",
+              "type": "skillLvUp",
+              "icon": "https://assets.atlasacademy.io/GameData/JP/Items/6542.png",
+              "background": "gold"
+            },
+            "amount": 8
+          }
+        ],
+        "qp": 6000000
+      },
+      "9": {
+        "items": [
+          {
+            "item": {
+              "id": 6999,
+              "name": "伝承結晶",
+              "type": "skillLvUp",
+              "icon": "https://assets.atlasacademy.io/GameData/JP/Items/6999.png",
+              "background": "gold"
+            },
+            "amount": 1
+          }
+        ],
+        "qp": 10000000
+      }
+    }
