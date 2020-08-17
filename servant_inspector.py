@@ -1,5 +1,6 @@
 import requests
 import json
+import csv
 import pprint
 import re
 from bs4 import BeautifulSoup
@@ -27,6 +28,55 @@ def create_servant_list():
     finally:
         f.close()
 
+
+class ServantLookup:
+    def __init__(self, cid, aid):
+        self.collection_id = cid
+        self.atlas_id = aid
+        self.names = ""
+
+    def __str__(self):
+        return(f'aid: {self.atlas_id}, cid: {self.collection_id}, names: {self.names}')
+
+
+def atlas_create_servant_list():
+    r = requests.get('https://api.atlasacademy.io/export/JP/basic_servant_lang_en.json')
+    atlas_data = r.json()
+    dryzen_data = {}
+    merged_list = []
+    try:
+        f = open('sample_data/nicknames.json', 'r')
+        strings = json.load(f)
+        for string in strings:
+            parts = string.split(': ')
+            dryzen_data[parts[0]] = parts[1]
+        print(dryzen_data)
+
+    finally:
+        f.close()
+    for entry in atlas_data:
+        # Check if collection id is present in dryzen_data, and use that for names if so
+        # otherwise, use name from atlas_data
+        # We need to zero pad because Atlas output 1 instead of 001
+        cid = str(entry['collectionNo']).zfill(3)
+        servant = ServantLookup(cid, str(entry['id']))
+        if servant.collection_id in dryzen_data:
+            servant.names = dryzen_data[servant.collection_id]
+        else:
+            # comma to signal we can add alt names
+            servant.names = entry['name'] + ','
+        merged_list.append(servant)
+
+    col_headers = ['atlas_id', 'collection_id', 'names']
+    try:
+        with open('fgo.csv', 'w+', encoding="utf-8", newline='') as file:
+            writer = csv.writer(file, delimiter=';')
+            writer.writerow(col_headers)
+            for servant in merged_list:
+                print(servant)
+                writer.writerow([servant.atlas_id, servant.collection_id, servant.names])
+    finally:
+        file.close()
 
 def lookup_servant(serv_url: str):
     r = requests.get('https://gamepress.gg/grandorder/servant/' + serv_url)
@@ -138,4 +188,4 @@ def print_item_and_cost(mats: json):
         print(f"{quantity} :{mat_id}:")
 
 if __name__ == "__main__":
-    atlas_lookup_skill_mats('304000')
+    atlas_create_servant_list()

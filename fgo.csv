@@ -1,0 +1,285 @@
+atlas_id;collection_id;names
+800100;001;mash kyrielight, mashu shielder
+100100;002;artoria pendragon, saber arturia artoria blue nero
+100200;003;artoria pendragon (alter), saber alter artoria alter arturia alter salter
+100300;004;artoria pendragon (lily), arturia lily artoria lily saber lily
+100500;005;nero claudius, umu red saber
+100800;006;siegfried, sumanai
+101300;007;gaius julius caesar
+101800;008;altera, atilla
+102200;009;gilles de rais (saber), saber gilles
+102600;010;chevalier d'eon, deon
+200100;011;emiya, archer
+200200;012;gilgamesh, gil
+200300;013;robin hood
+200500;014;atalante
+201200;015;euryale
+201300;016;arash, stella
+300100;017;cu chulainn, lancer
+300500;018;elisabeth bathory, elizabeth liz
+300600;019;musashibou benkei
+300700;020;cu chulainn (prototype), proto cu
+300900;021;leonidas i
+301000;022;romulus, roma
+400100;023;medusa, rider
+400600;024;georgios, george
+400800;025;edward teach, blackbeard
+401100;026;boudica
+401400;027;ushiwakamaru, ushi
+401500;028;alexander
+401700;029;marie antoinette
+401900;030;martha, rider martha
+500100;031;medea, caster
+500200;032;gilles de rais, caster gilles
+500500;033;hans christian andersen
+500700;034;william shakespeare, billy shakes
+501400;035;mephistopheles, mephisto
+501500;036;wolfgang amadeus mozart
+501900;037;zhuge liang (el-melloi ii), waver zhuge
+502100;038;cu chulainn (caster), caster cu
+600100;039;sasaki kojirou, fake assassin
+600200;040;hassan of the cursed arm, cursed arm hassan true assassin
+601000;041;stheno
+601100;042;jing ke
+601200;043;charles-henri sanson
+601300;044;phantom of the opera
+601400;045;mata hari
+601700;046;carmilla
+700100;047;heracles, hercules herc berserker
+700200;048;lancelot (berserker), berserker lancelot berserkerlot zerkerlot
+700300;049;lu bu, fengxian
+700500;050;spartacus
+700600;051;sakata kintoki, berserker kintoki
+700700;052;vlad iii, berserker vlad vladdy
+700900;053;asterios
+701000;054;caligula
+701100;055;darius iii, darius age 3
+701300;056;kiyohime, kiyo
+701500;057;eric bloodaxe
+701600;058;tamamo cat, tamacat
+900100;059;jeanne d'arc, ruler jeanne
+200900;060;orion, artemis
+502600;061;elisabeth bathory (halloween), caster liz
+500300;062;tamamo-no-mae, mikon casko
+200600;063;david, bad dad
+301600;064;hektor, hector
+400300;065;francis drake
+400900;066;anne bonny & mary read, rider anne and mary
+501700;067;medea (lily), medea lily
+102700;068;okita souji
+202400;069;oda nobunaga, nobu
+301300;070;scathach, scath shishou
+300200;071;diarmuid ua duibhne
+101400;072;fergus mac roich
+402200;073;artoria pendragon (santa alter), salter rider santa rider
+500400;074;nursery rhyme, alice
+600500;075;jack the ripper
+100900;076;mordred
+201100;077;nikola tesla
+301900;078;artoria pendragon lancer (alter), lancer arturia alter lalter
+501000;079;paracelsus von hohenheim
+501100;080;charles babbage, babbu
+600700;081;henry jekyll & hyde
+700400;082;frankenstein, frankie fran
+1700100;083;Solomon,
+201500;084;arjuna
+300400;085;karna
+601800;086;mysterious heroine x, mhx
+301100;087;fionn mac cumhaill, finn mccool
+301200;088;brynhild, brynhildr bryn hazel
+700800;089;beowulf
+100600;090;nero claudius (bride), nero bride
+102800;091;ryougi shiki (saber), void shiki
+602300;092;ryougi shiki, assassin shiki
+900200;093;amakusa shirou, kotomine shirou
+400400;094;astolfo
+201800;095;gilgamesh (child), kid gil kogil
+1100200;096;edmond dantes, baal
+701400;097;nightingale, florence
+702000;098;cu chulainn (alter), berserker cu zerker cuzilla
+401300;099;queen medb, medb
+502300;100;helena blavatsky
+101900;101;rama, kurapika
+301700;102;li shuwen
+502500;103;thomas edison
+501600;104;geronimo
+201000;105;billy the kid, bily
+1100300;106;jeanne d'arc (alter), jeanne alter jalter
+1100100;107;angra mainyu, angra manyu avenger
+400200;108;iskandar
+601500;109;emiya (assassin), kiritsugu kerry
+600300;110;hassan of hundred persona, hundred-faced hassan assassko
+502000;111;irisviel (holy grail), iri
+602100;112;shuten-douji, shuten douji
+502200;113;xuanzang, sanzang
+702300;114;minamoto-no-raikou, mom
+402300;115;sakata kintoki (rider), rider kintoki
+702200;116;ibaraki-douji, anti-bully ranger
+601900;117;fuuma kotarou
+401200;118;ozymandias, ozy ramses rameses ramesses II
+302000;119;artoria pendragon lancer, arturia lancer artoria lancer lanter lion king lantoria
+501200;120;nitocris, nito
+102000;121;lancelot (saber), saber lancelot saberlot
+200800;122;tristan
+100700;123;gawain
+600900;124;hassan of the serenity, serenity
+201400;125;tawara touta
+101200;126;bedivere, bedi
+500900;127;leonardo da vinci
+302400;128;summer tamamo-no-mae, summer tamamo lancer tamamo
+202600;129;summer artoria pendragon, summer arturia artoria archer arturia archertoria squirtoria
+502700;130;summer marie antoinette, summer marie caster marie
+202500;131;summer anne bonny & mary read, summer anne and mary archer anne and mary
+402400;132;summer mordred, summer mordred rider mordred
+602400;133;summer scathach, summer scathach assassin scathach
+302500;134;summer kiyohime, summer kiyohime lancer kiyohime
+900400;135;summer martha, ruler martha summer martha
+502800;136;illyasviel von einzbern, ilya
+202700;137;chloe von einzbern, kuro
+101000;138;elisabeth bathory (brave), saber elizabeth saber liz
+600800;139;cleopatra, cleo
+300300;140;vlad iii (extra), extra vlad lancer vlad
+302600;141;jeanne d'arc alter santa lily, jeanne lily
+202000;142;ishtar, rin
+300800;143;enkidu
+401800;144;quetzalcoatl, quetz
+501800;145;gilgamesh (caster), caster gilgamesh caster gil casgil
+302700;146;medusa (lancer), medusa lily
+1100400;147;gorgon, avenger medusa
+302800;148;jaguar warrior, jaguarman taiga
+9935400;149;Tiamat,
+500800;150;merlin
+9935500;151;Goetia,
+9935530;152;solomon
+101700;153;miyamoto musashi
+602500;154;"""first hassan"", old man of the mountain king hassan gramps"
+702400;155;mysterious heroine x (alter), xalter mhx alter mhxa
+202300;156;shinjuku archer, moriarty
+201600;157;emiya (alter)
+1100500;158;shinjuku avenger, hessian lobo
+602600;159;shinjuku assassin, yan qing yan
+102900;160;arthur pendragon (prototype), proto saber proto arthur
+702500;161;hijikata toshizo
+702600;162;chacha, real smooth
+1000200;163;meltryllis, meltlilith melt
+1000100;164;passionlip, passion
+103000;165;suzuka gozen, jk fox
+2300100;166;bb, kouhai
+1000300;167;sessyoin kiara
+9939130;168;Beast III/R,
+503000;169;fuyajo caster, scheherazade scherazade schera schez
+602700;170;fuyajo assassin, wu zetian wu
+702700;171;el dorado berserker, penthesilea pent penth
+402500;172;resistance rider, christopher columbus
+900500;173;sherlock holmes
+702800;174;paul bunyan
+503200;175;summer nero claudius, summer nero caster nero, caster uwu
+103100;176;summer frankenstein, summer frankenstein saber frankenstein
+602800;177;summer nitocris, summer nitocris assassin nitocris medjed
+702900;178;summer oda nobunaga, summer nobu berserker nobu
+402700;179;summer artoria pendragon(alter), summer salter rider salter maid alter
+202800;180;summer helena blavatsky, summer helena archer helena jack king
+302900;181;summer minamoto-no-raikou, summer raikou lancer raikou
+402600;182;summer ishtar, summer ishtar rider ishtar rin
+303000;183;parvati, sakura
+202100;184;archer inferno, tomoe gozen
+602900;185;assassin paraiso, paradise assassin mochizuki chiyome
+301400;186;houzouin inshun
+103200;187;yagyuu tajima-no-kami munenori, yagyu
+603000;188;katou danzou
+603100;189;osakabe-hime, osakabe neet
+1000400;190;mecha eli-chan, mecha eli
+1000500;191;mecha eli-chan mk.ii, mecha eli 2
+503300;192;okeanos caster, circe
+303100;193;nezha, deko
+503400;194;midrash caster, queen of sheba sheba
+2500100;195;abigail williams, abby
+303200;196;ereshkigal, eresh rin
+202200;197;altera the sun (ta), santa altera
+2500200;198;katsushika hokusai
+603200;199;semiramis, semi
+202900;200;asagami fujino, fujinon
+503500;201;anastasia, anya
+703000;202;atalante (alter), catalante, atalante alter
+503600;203;avicebron
+1100600;204;antonio salieri
+402800;205;ivan the terrible
+402900;206;achilles, achilles
+203000;207;chiron, chiron
+503800;208;sieg, jeeg worst boy
+1000700;209;okita souji (alter), okita alter
+603300;210;okada izou
+403000;211;sakamoto ryouma, ryoma
+203100;212;napoleon, daddy
+103300;213;sigurd, pup play
+303300;214;valkyrie
+503900;215;scathach=skadi
+203200;216;summer jeanne d'arc, archer jeanne
+303400;217;summer ibaraki-douji, lancer ibaraki
+603400;218;summer ushiwakamaru, assassin ushiwakamaru
+703100;219;summer jeanne d'arc (alter), summer jalter, jerker
+2300200;220;summer bb
+103400;221;summer medb, saber medb
+2500300;222;mysterious heroine xx, mhxx
+103500;223;diarmuid ua duibhne, saber diarmuid
+1000800;224;sitonai, illya with a bear
+504000;225;shuten-douji (caster), onicure, caster shuten
+703200;226;xiang yu, xiangyu
+103600;227;lan ling wang, lanling, gao changgong
+303500;228;qin liangyu
+900600;229;qin shi huang, qinshihuang, shihuangdi, shi huang di, qsh
+603500;230;yu meiren, consort yu, yumeiren, hinako akuta
+403100;231;chituma, red hare, horse, sekitoba
+303600;232;bradamante
+900700;233;quetzalcoatl (samba/santa), christmas quetzalcoatl
+103700;234;benienma, benny
+603600;235;li shuwen (assassin), old man li
+504100;236;miyu
+504200;237;murasaki shikibu
+1000900;238;kingprotea
+603700;239;kama
+9941730;240;Beast III/L,
+403200;241;sima yi (reines)
+900800;242;astraea, luvia
+603900;243;gray
+2300300;244;great statue god, jinako, ganesha
+103900;245;lakshmi bai
+203400;246;william tell
+703300;247;arjuna (alter), godjuna arjuna alter junao
+203300;248;ashvatthaman, ashwattaman
+504300;249;asklepios, asclepius, snake boy
+1100700;250;demon king nobunaga, maou nobunaga oda nobunaga
+703500;251;mori nagayoshi
+303800;252;nagao kagetora, uesugi kenshin
+403500;253;leonardo da vinci (rider)
+103800;254;jason
+203500;255;paris
+303900;256;gareth
+403400;257;bartholomew roberts
+504400;258;chen gong
+603800;259;charlotte corday
+703400;260;salome
+703600;261;summer miyamoto musashi
+203600;262;summer osakabe-hime
+403600;263;summer carmilla
+104000;264;summer katsushika hokusai, summer hokusai
+900900;265;summer artoria pendragon, bunny artoria, bunny lion king
+304000;266;mysterious alterego Î›, summer melt
+604000;267;okita j. souji, summer okita
+1100900;268;space ishtar, astarte, rin
+203700;269;calamity jane
+104100;270;christmas astolfo
+203900;271;nightingale (santa), christmas nightingale
+203800;272;superhuman orion
+403900;273;mandricardo, himbo
+404000;274;europa
+2500400;275;yang guifei
+204000;276;Sei Shonagon,
+403800;277;Odysseus,
+104200;278;Dioscuri,
+304100;279;Caenis,
+304200;280;Romulus-Quirinus,
+2500500;281;Voyager,
+703700;282;Kijyo Koyo,
+304300;283;Elice Utsumi,
+504500;284;Altria Caster,
